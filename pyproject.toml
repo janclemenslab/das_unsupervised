@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=2,<3"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "deepss_unsupervised"
+author = "Jan Clemens"
+author-email = "clemensjan@googlemail.com"
+home-page = "https://github.com/janclemenslab/deepss_unsupervised"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires-python = ">=3.7"
+requires = ['numpy', 'scipy', 'sklearn',
+            'matplotlib', 'colorcet', 'seaborn',
+            'librosa', 'noisereduce', 'Pillow',
+            'umap-learn', 'hdbscan']
+description-file = "README.md"
