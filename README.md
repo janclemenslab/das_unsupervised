@@ -31,13 +31,13 @@ pip install deepss-unsupervised
 ## Acknowledgements
 Code from the following open source packages was modified and integrated into dss-unsupervised:
 
-- [avgn](https://github.com/timsainb/avgn_paper)[^1]
+- [avgn](https://github.com/timsainb/avgn_paper) (Sainburg et al. 2020)
 - [noisereduce](https://pypi.org/project/noisereduce)
-- [fly pulse classifier](https://github.com/murthylab/MurthyLab_FlySongSegmenter)[^2]
+- [fly pulse classifier](https://github.com/murthylab/MurthyLab_FlySongSegmenter) (Clemens et al. 2018)
 
 
 ## References
 
-[^1]: T Sainburg, M Thielk, TQ Gentner: Latent space visualization, characterization, and generation of diverse vocal communication signals. Biorxiv. [https://doi.org/10.1101/870311]()
+1. T Sainburg, M Thielk, TQ Gentner: Latent space visualization, characterization, and generation of diverse vocal communication signals. Biorxiv (2020). [https://doi.org/10.1101/870311]()
 
-[^2]: J Clemens, P Coen, F Roemschied, T Perreira, D Mazumder, D Aldorando, D Pacheco, M Murthy: Discovery of a New Song Mode in Drosophila Reveals Hidden Structure in the Sensory and Neural Drivers of Behavior. Current Biology 28, 2400–2412.e6 (2018). [https://doi.org/10.1016/j.cub.2018.06.011]()
+2. J Clemens, P Coen, F Roemschied, T Perreira, D Mazumder, D Aldorando, D Pacheco, M Murthy: Discovery of a New Song Mode in Drosophila Reveals Hidden Structure in the Sensory and Neural Drivers of Behavior. Current Biology 28, 2400–2412.e6 (2018). [https://doi.org/10.1016/j.cub.2018.06.011]()
