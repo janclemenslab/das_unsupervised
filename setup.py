@@ -26,12 +26,12 @@ with open(os.path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 
-setup(name='dss_unsupervised',
-      version=find_version("src/deepss_unsupervised/__init__.py"),
-      description='deepsongsegmenter unsupervised',
+setup(name='das_unsupervised',
+      version=find_version("src/das_unsupervised/__init__.py"),
+      description='deep audio segmenter, unsupervised',
       long_description=long_description,
       long_description_content_type="text/markdown",
-      url='http://github.com/janclemenslab/deess-unsupervised',
+      url='http://github.com/janclemenslab/das-unsupervised',
       author='Jan Clemens',
       author_email='clemensjan@googlemail.com',
       license='MIT',
@@ -40,7 +40,7 @@ setup(name='dss_unsupervised',
       install_requires=['numpy', 'scipy', 'sklearn',
                         'matplotlib', 'colorcet', 'seaborn',
                         'librosa', 'noisereduce', 'Pillow',
-                        'umap-learn', 'hdbscan'],
+                        'umap-learn<0.5', 'hdbscan'],
       include_package_data=True,
       zip_safe=False,
      )

@@ -1,5 +1,5 @@
 # Tools for unsupervised classification of acoustic signals
-_DeepSS-unsupervised_ provides tools for pre-processing acoustic signals for unsupervised classification:
+_DAS-unsupervised_ provides tools for pre-processing acoustic signals for unsupervised classification:
 
 - extract waveforms or spectrograms of acoustic events from a recording
 - normalize the duration, center frequency, amplitude, or sign of waveform/spectrograms
@@ -9,13 +9,13 @@ Unsupervised classification itself is performed using existing libraries:
 - dimensionality reduction: [umap](https://umap-learn.readthedocs.io/)
 - clustering: [hdbscan](https://hdbscan.readthedocs.io/) or [scikit-learn](https://scikit-learn.org/stable/modules/clustering.html)
 
-Can be Used in combination with [DeepSS](https://github.com/janclemenslab/deepsongsegmenter), a deep learning based method for the supervised annotation of acoustic signals.
+Can be used in combination with [DAS](https://github.com/janclemenslab/das), a deep learning based method for the supervised annotation of acoustic signals.
 
 
 ## Installation
 
 ```shell
-pip install deepss-unsupervised
+pip install das-unsupervised
 ```
 
 ## Demos
@@ -29,7 +29,7 @@ pip install deepss-unsupervised
 
 
 ## Acknowledgements
-Code from the following open source packages was modified and integrated into dss-unsupervised:
+Code from the following open source packages was modified and integrated into das-unsupervised:
 
 - [avgn](https://github.com/timsainb/avgn_paper) (Sainburg et al. 2020)
 - [noisereduce](https://pypi.org/project/noisereduce)
