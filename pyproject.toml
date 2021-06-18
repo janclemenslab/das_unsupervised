@@ -3,7 +3,6 @@ requires = ["flit_core >=2,<3"]
 build-backend = "flit_core.buildapi"
 
 [tool.flit.metadata]
-package= "das_unsupervised"
 module = "das_unsupervised"
 author = "Jan Clemens"
 author-email = "clemensjan@googlemail.com"
