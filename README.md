@@ -12,10 +12,19 @@ Unsupervised classification itself is performed using existing libraries:
 Can be used in combination with [DAS](https://github.com/janclemenslab/das), a deep learning based method for the supervised annotation of acoustic signals.
 
 
-## Installation
+<!-- ## Pip installation
 
 ```shell
 pip install das-unsupervised
+``` -->
+
+## Install via conda
+```shell
+conda create -y -n umap -c conda-forge python=3.9
+conda activate umap
+conda install -y -c ncb -c conda-forge numpy scipy scikit-learn matplotlib colorcet seaborn librosa pillow umap-learn hdbscan jupyterlab ipykernel
+pip install noisereduce
+pip install das_unsupervised --no-deps
 ```
 
 ## Demos
