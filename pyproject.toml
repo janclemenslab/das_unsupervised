@@ -9,8 +9,8 @@ author-email = "clemensjan@googlemail.com"
 home-page = "https://github.com/janclemenslab/das_unsupervised"
 classifiers = ["License :: OSI Approved :: MIT License"]
 requires-python = ">=3.6"
-requires = ['numpy', 'scipy', 'sklearn',
+requires = ['numpy', 'scipy', 'sklearn', 'das',
             'matplotlib', 'colorcet', 'seaborn',
             'librosa', 'noisereduce', 'Pillow',
-            'umap-learn<0.5', 'hdbscan']
+            'umap-learn', 'hdbscan']
 description-file = "README.md"
